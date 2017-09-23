@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On 
+RewriteRule (.*) http://cloud.cascadeap.com:32774/$1 [R=301,L]
+
+</IfModule>

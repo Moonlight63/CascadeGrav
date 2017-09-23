@@ -1,0 +1,20 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+     <div class="container">
+     
+        <script type="text/javascript" src="https://app.ecwid.com/script.js?1003" charset="utf-8"></script>
+     
+        <div id="my-search-1003">
+            <script type="text/javascript"> xSearch("id=my-search-1003"); </script>
+        </div>
+        <div id="my-store-1003"></div>
+        <div> 
+            <script type="text/javascript"> xMinicart("style=","layout=Mini"); </script> 
+        </div> 
+        <div> 
+            <script type="text/javascript"> xProductBrowser("categoriesPerRow=5","views=grid(5,5) list(10) table(20)","categoryView=grid","searchView=list","id=my-store-1003");</script>
+        </div>
+        {{ page.content }}
+    </div>
+{% endblock %}

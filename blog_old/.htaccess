@@ -1,0 +1,16 @@
+# Pretty Permalinks
+RewriteRule ^(images)($|/) - [L]
+RewriteCond %{REQUEST_URI} !^action=logout [NC]
+RewriteCond %{REQUEST_URI} !^action=login [NC]
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+# RewriteBase /dropplets/
+#RewriteCond %{REQUEST_URI} !index\.php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php?filename=$1 [NC,QSA,L]
+
+RewriteRule ^author/([^/]*)/?$ index.php?author=$1 [NC,QSA,L]
+RewriteRule ^category/([^/]*)/?$ index.php?category=$1 [NC,QSA,L]
+RewriteRule ^post/([^/]*)/?$ index.php?postID=$1 [NC,QSA,L]
+RewriteRule ^author/([^/]*)/([^/]*)/?$ index.php?author=$1&category=$2 [NC,QSA,L]
+RewriteRule ^feed/([^/]*)/?$ index.php?filename=$1 [NC,QSA,L]

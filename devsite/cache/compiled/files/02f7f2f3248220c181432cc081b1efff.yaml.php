@@ -1,0 +1,95 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/home/moonlight63/public_html/devsite/user/plugins/widget/blueprints.yaml',
+    'modified' => 1505596361,
+    'data' => [
+        'name' => 'Widget',
+        'version' => '1.1.5',
+        'description' => '**Widget** is a plugin that lets you embed reusable modular components into pages using a simple header configuration',
+        'icon' => 'trello',
+        'author' => [
+            'name' => 'Oluwasoji Ojo',
+            'email' => 'itwizardy@gmail.com'
+        ],
+        'homepage' => 'https://github.com/sojimaxi/grav-plugin-widget',
+        'keywords' => 'widget, modular, inject, embed, markdown, twig, grav',
+        'bugs' => 'https://github.com/sojimaxi/grav-plugin-widget/issues',
+        'docs' => 'https://github.com/sojimaxi/grav-plugin-widget/blob/master/README.md',
+        'license' => 'MIT',
+        'form' => [
+            'validation' => 'strict',
+            'fields' => [
+                'enabled' => [
+                    'type' => 'toggle',
+                    'label' => 'Plugin status',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'parent' => [
+                    'type' => 'text',
+                    'label' => 'Parent Folder <br> <span style="font-size: .75rem; color:red">Update pages that contain widgets if changed</span>',
+                    'default' => 'widgets',
+                    'validate' => [
+                        'type' => 'slug',
+                        'required' => true
+                    ],
+                    'help' => 'Folder that stores all the widgets within the user/page. This directory is auto-generaed if it does not exist.'
+                ],
+                'extras' => [
+                    'type' => 'select',
+                    'label' => 'Widget Extras',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        2 => 'Enabled All Pages',
+                        1 => 'Enabled Widget Only',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'This will enable optional widget extras like link, background image, class e.t.c in the page content tab'
+                ],
+                'widgets_in_widget' => [
+                    'type' => 'toggle',
+                    'label' => 'Widgets in Widget <br> <span style="font-size: .75rem; color:red">For Advanced Users</span>',
+                    'highlight' => 0,
+                    'default' => 0,
+                    'options' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'bool',
+                        'required' => true
+                    ],
+                    'help' => 'Allow widget to contain their own widgets.'
+                ],
+                'enable_twig' => [
+                    'type' => 'toggle',
+                    'label' => 'Enable Twig Function',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'disabled' => true,
+                    'options' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'bool',
+                        'required' => true
+                    ],
+                    'help' => 'Enable the use of widget() twig function in your theme to load widgets.'
+                ]
+            ]
+        ]
+    ]
+];

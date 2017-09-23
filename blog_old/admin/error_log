@@ -1,0 +1,30 @@
+[03-Apr-2017 03:04:13 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[03-Apr-2017 03:04:13 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[03-Apr-2017 03:04:13 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[03-Apr-2017 03:04:13 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[03-Apr-2017 18:27:26 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[03-Apr-2017 18:27:26 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[03-Apr-2017 18:27:26 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[03-Apr-2017 18:27:26 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[03-Apr-2017 18:29:12 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[03-Apr-2017 18:29:12 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 42
+[03-Apr-2017 18:29:12 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[04-Apr-2017 03:01:31 UTC] PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in /home/moonlight63/public_html/blog/admin/index.php on line 2
+[04-Apr-2017 03:01:32 UTC] PHP Warning:  Erroneous data format for unserializing 'Opis\Closure\SerializableClosure' in /home/moonlight63/public_html/blog/admin/dashboard.php on line 6
+[04-Apr-2017 03:01:32 UTC] PHP Warning:  session_start(): Failed to decode session object. Session has been destroyed in /home/moonlight63/public_html/blog/admin/dashboard.php on line 6
+[04-Apr-2017 03:01:32 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[04-Apr-2017 03:01:32 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[04-Apr-2017 03:01:32 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[04-Apr-2017 03:01:32 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[04-Apr-2017 03:01:39 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[04-Apr-2017 03:01:39 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[04-Apr-2017 03:01:39 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[04-Apr-2017 03:01:39 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[08-Apr-2017 05:50:55 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[08-Apr-2017 05:50:55 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[08-Apr-2017 05:50:55 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[08-Apr-2017 05:50:55 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
+[15-Apr-2017 22:30:25 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 38
+[15-Apr-2017 22:30:25 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 40
+[15-Apr-2017 22:30:25 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 45
+[15-Apr-2017 22:30:25 UTC] PHP Notice:  Undefined index: section in /home/moonlight63/public_html/blog/admin/dashboard.php on line 47
